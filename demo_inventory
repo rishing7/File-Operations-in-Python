@@ -8,7 +8,7 @@ localhost
 12.12.12.1
 123.12.123.12
 
-[logstash_pre]
+[logstash_dev]
 localhost
 12.12.12.1
 123.12.123.12

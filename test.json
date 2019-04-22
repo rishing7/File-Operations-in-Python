@@ -1,0 +1,1 @@
+[{"Env": "prod", "Proj": "fota", "Component": "nginx", "LogPaths": "/var/log/access.log,/var/log/error.log", "Tags": "access,error"}, {"Env": "prod", "Proj": "fota", "Component": "nginx", "LogPaths": "/var/log/access1.log,/var/log/error1.log", "Tags": "access1,error1"}, {"Env": "sit", "Proj": "fota", "Component": "nginx", "LogPaths": "/var/log/error2.log", "Tags": "error2"}]

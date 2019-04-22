@@ -1,0 +1,33 @@
+filebeat.prospectors:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/access.log
+  tags: ['prod_fota_access']
+
+- type: log
+  enabled: true
+  paths:
+    - /var/log/error.log
+  tags: ['prod_fota_error']
+
+- type: log
+  enabled: true
+  paths:
+    - /var/log/access1.log
+  tags: ['prod_fota_access1']
+
+- type: log
+  enabled: true
+  paths:
+    - /var/log/error1.log
+  tags: ['prod_fota_error1']
+
+- type: log
+  enabled: true
+  paths:
+    - /var/log/error2.log
+  tags: ['sit_fota_error2']
+
+output.logstash:
+  hosts: ['localhost:5044', '12.12.12.1:5044', '123.12.123.12:5044', 'localhost:5044', '12.12.12.1:5044', '123.12.123.12:5044']
