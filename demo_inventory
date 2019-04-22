@@ -1,0 +1,15 @@
+[logstash_prod]
+localhost
+12.12.12.1
+123.12.123.12
+
+[logstash_sit]
+localhost
+12.12.12.1
+123.12.123.12
+
+[logstash_pre]
+localhost
+12.12.12.1
+123.12.123.12
+
