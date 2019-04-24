@@ -1,0 +1,9 @@
+
+- type: log
+  enabled: true
+  paths:
+    - /var/log/error2.log
+  tags: ['sit_fota_error2']
+
+output.logstash:
+  hosts: ['localhost:5044', '12.12.12.1:5044', '123.12.123.12:5044']
